@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container form {
+  background: lightcoral;
+  padding: 10rem;
+  color: rgb(14, 14, 14);
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+  background-color: white;
+}
+
+form button {
+  padding: 8px 30px;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  width: 50%;
+}
